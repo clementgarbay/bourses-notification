@@ -11,6 +11,6 @@ else
 fi
 
 # Permissions hack because setfacl does not work on Mac and Windows
-chown -R www-data var
+# chown -R www-data var
 
 exec php-fpm

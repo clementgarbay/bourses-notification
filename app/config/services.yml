@@ -4,14 +4,4 @@ parameters:
 #    parameter_name: value
 
 services:
-    bourse.collection_data_provider:
-        class: 'AppBundle\DataProvider\BourseCollectionDataProvider'
-        public: false
-        tags:
-            -  { name: 'api_platform.', priority: 2 }
 
-    bourse.item_data_provider:
-        class: 'AppBundle\DataProvider\BourseItemDataProvider'
-        public: false
-        tags:
-            -  { name: 'api_platform.item_data_provider' }
